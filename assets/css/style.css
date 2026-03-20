@@ -2608,7 +2608,7 @@ header ul, header li, footer ul, footer li {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #001659;
+  background: #001659;
   z-index: 999;
 }
 
@@ -12255,7 +12255,7 @@ header .header-top-bar .top-social-icons a:hover {
   padding: 40px;
   border-radius: 20px;
 }
-}
+
 @media (max-width: 767px) {
   .footer-cta-wrapper .footer-cta-bg-wrapper {
     padding: 30px;
