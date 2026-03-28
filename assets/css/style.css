@@ -10088,7 +10088,7 @@ header .header-top-bar .top-social-icons a:hover {
 }
 
 .faq-sidebar {
-  background-color: #f27b13;
+  background-color: #32456f;
   padding: 30px 50px;
 }
 .faq-sidebar h3, .faq-sidebar p {
@@ -18121,6 +18121,64 @@ section.brand__area.brand-8 {
   .cta-8__bg__shape {
     top: -54px;
   }
+}
+.listicon{
+list-style: disc !important;
+  
+}
+
+
+/* Section Background */
+
+/* Card Style */
+.expertise-card {
+    background: #ffffff; /* fallback */
+  background: linear-gradient(135deg, #011659
+  , #011659); /* soft gradient */
+ 
+  padding: 25px;
+  height: 100%;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+}
+
+/* Hover Effect */
+.expertise-card:hover {
+  transform: translateY(-10px); /* move up */
+  box-shadow: 0 10px 30px #011659; /* deeper shadow */
+
+    
+  
+}
+
+/* Title */
+.section-title h2 {
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+/* Heading inside card */
+.expertise-card h2 {
+  color: #f27b13;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}
+
+/* List */
+.expertise-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.expertise-card ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  list-style: disc;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
